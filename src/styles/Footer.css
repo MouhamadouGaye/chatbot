@@ -1,0 +1,71 @@
+.footer {
+    background: #333;
+    color: white; 
+    bottom: 3px;
+    height: 300px;
+  
+  }
+  .container {
+
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+
+  .first-container ul{
+    list-style: none;
+
+  } 
+
+  .first-container li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px; /* Padding around the text */
+
+  }
+
+  .first-container a:hover {
+    background-color: #555; /* Background color on hover */
+    color: #ff0; /* Text color on hover */
+    border-radius: 5px;
+  }
+
+  .third-container{
+    text-decoration: none;
+    line-height: none;
+    color: rgb(245, 12, 12);
+    gap: 20px;
+  }
+
+  
+  .second-container {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: table-column; /* Display items horizontally */
+    background-color: #333; /* Background color of the navigation bar */
+  }
+  
+  .second-container li {
+    margin: 0 15px; /* Space between each item */
+  }
+  
+  .second-container li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    display: block; /* Make the entire link area clickable */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .second-container li a:hover {
+    background-color: #555; /* Background color on hover */
+    color: #ff0; /* Text color on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+  }
+  
+  .second-container li a:active {
+    background-color: #222; /* Background color when clicked */
+  }
+  

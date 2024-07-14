@@ -1,0 +1,106 @@
+.App {
+  margin: 0px;
+  padding: 0px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+
+  .header {
+    height: 200px;
+    background-color: white;
+
+    padding: 20px;
+    height: 500px;
+    overflow: auto;
+  }
+  .main {
+    height: 800px;
+    background-color: blueviolet;
+   
+  }
+  .footer {
+    height: 800px;
+    background-color: aquamarine;
+
+  }
+
+  .chatbot {
+    background-color: dimgray;
+    width: 350px;
+    height: 400px;
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+    border-radius: 10px;
+  }
+  .body-chatbot {
+    width: 100%;
+    height: 68%;
+    background-color: rgba(255, 255, 255, 0.814);
+    overflow-y: auto;
+  }
+  .header-chatbot {
+    background-color: transparent;
+    width: 100%;
+    height: 16%;
+  }
+  .footer-chatbot {
+    height: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centre verticalement */
+
+
+  }
+  .input {
+    width: 200px;
+    height: 27px;
+  }
+  .btn {
+    height: 30px;
+  }
+  .ok {
+    margin: 15px;
+  }
+
+
+  /* fixed bottom-4 right-20  shadow-lg rounded-lg 
+  
+  headerbot text-white p-5 cursor-pointer  bg-[#001f2b] rounded-lg flex justify-center gap-4*/
+
+  .iconeOpen {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    text-shadow: 5px;
+    border-radius: 3px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+  }
+
+.iconeClose{
+  display: flex;
+  position: fixed;
+  bottom: 350px;
+  right: 155px;
+  text-shadow: 5px;
+  border-radius: 50%;
+  font-size: 25px;
+  color: white;
+  z-index: 3;
+  justify-content: space-around;
+  background-color: #333;
+
+}
+.iconeClose p{
+  font-size: 12px;
+}
+
+
